@@ -12,7 +12,7 @@ public class PageNewsDetail {
 	 * 获取右上角更多控件
 	 * */
 	public UiObject getMoreTextView(){
-		return UiObjectHelper.getUiObjectByResourceId("");
+		return UiObjectHelper.getUiObjectByResourceId("com.netease.newsreader.activity:id/biz_newspage_menu_more");
 	}
 	
 	/*

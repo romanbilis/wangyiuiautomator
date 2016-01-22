@@ -12,21 +12,21 @@ public class PageNavigetion {
 		 * 获取阅读tab页
 		 * */
 	public UiObject getReadTab(){
-		return UiObjectHelper.getUiObjectByIdAndInstanceIndex("", 1);
+		return UiObjectHelper.getUiObjectByIdAndInstanceIndex("com.netease.newsreader.activity:id/biz_navi_tab", 1);
 	}
 	
 	/*
 	 * 获取我的tab页
 	 * */
 	public UiObject getMyTab() throws UiObjectNotFoundException{
-		return UiObjectHelper.getUiObjectByIdAndInstanceIndex("", 4);	
+		return UiObjectHelper.getUiObjectByIdAndInstanceIndex("com.netease.newsreader.activity:id/biz_navi_tab", 4);	
 	}
 	
 	/*
 	 * 获取新闻tab页
 	 * */
 	public UiObject getNewsTab() throws UiObjectNotFoundException{
-		return UiObjectHelper.getUiObjectByIdAndInstanceIndex("", 0);
+		return UiObjectHelper.getUiObjectByIdAndInstanceIndex("com.netease.newsreader.activity:id/biz_navi_tab", 0);
 	}
 	
 	/*

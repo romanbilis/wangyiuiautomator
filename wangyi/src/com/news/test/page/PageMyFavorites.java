@@ -10,7 +10,7 @@ public class PageMyFavorites {
 		 * 获取指定行的新闻标题控件
 		 * */
 	public UiObject getTitleTV(int index){
-			return UiObjectHelper.getUiObjectByIdAndInstanceIndex("", index);
+			return UiObjectHelper.getUiObjectByIdAndInstanceIndex("com.netease.newsreader.activity:id/title", index);
 	}
 	
 	/*

@@ -11,7 +11,11 @@ public class PageMy {
 	 * @return
 	 * */
 	public UiObject getLoginImageView(){
-		return UiObjectHelper.getUiObjectByResourceId("");
+		return UiObjectHelper.getUiObjectByResourceId("com.netease.newsreader.activity:id/biz_pc_main_info_profile_avatar");
+	}
+	
+	public UiObject getPageMy(){
+		return UiObjectHelper.getUiObjectByResourceId("com.netease.newsreader.activity:id/biz_pc_profile_collect");
 	}
 	
 	/*
@@ -26,5 +30,16 @@ public class PageMy {
 			e.printStackTrace();
 		}
 	}
+	
+	public void clickFavoirtesRL(){
+		
+		try {
+			getPageMy().clickAndWaitForNewWindow();
+		} catch (UiObjectNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
 	
 }

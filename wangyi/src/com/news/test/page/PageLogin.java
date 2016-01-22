@@ -10,14 +10,20 @@ import com.news.test.UiObjectHelper;
 //抽取登录类
 
 public class PageLogin {
+	/*抽取用户名输入框
+	 * */
 	public UiObject getUserEditText(){
 		return UiObjectHelper.getUiObjectByResourceId("");
 	}
 	
+	/*抽取密码输入框
+	 * */
 	public UiObject getPwdEditText(){
 		return UiObjectHelper.getUiObjectByResourceId("");
 	}
 	
+	/*抽取登录按钮
+	 * */
 	public UiObject getLoginButton(){
 		return UiObjectHelper.getUiObjectByResourceId("");
 	}
